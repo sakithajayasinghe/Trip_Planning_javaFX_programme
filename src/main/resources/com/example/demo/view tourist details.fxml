@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.HelloController">
+   <children>
+      <Label layoutX="172.0" layoutY="35.0" prefHeight="38.0" prefWidth="308.0" text="Registered Tourists Details">
+         <font>
+            <Font name="Impact" size="24.0" />
+         </font>
+      </Label>
+      <TableView layoutX="28.0" layoutY="101.0" prefHeight="253.0" prefWidth="546.0">
+        <columns>
+          <TableColumn prefWidth="75.0" text="C1" />
+          <TableColumn prefWidth="124.0" text="C2" />
+        </columns>
+      </TableView>
+      <Button fx:id="mainmenu" layoutX="513.0" layoutY="361.0" mnemonicParsing="false" onAction="#mainmenuClick" text="Main Menu" />
+      <Button fx:id="back3" layoutX="14.0" layoutY="361.0" mnemonicParsing="false" onAction="#back3Click" text="BACK" />
+   </children>
+</AnchorPane>
